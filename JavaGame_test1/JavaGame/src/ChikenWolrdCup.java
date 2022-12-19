@@ -54,8 +54,8 @@ public class ChikenWolrdCup {
 			buttonLeft.addActionListener(this);
 			buttonRight.addActionListener(this);
 			panelCenter.add(buttonLeft);
-			panelCenter.add(buttonRight);
 			panelCenter.add(labelVs);
+			panelCenter.add(buttonRight);
 			this.add( "Center", panelCenter );
 			
 			//빈공간을 팩으로 묶음.
